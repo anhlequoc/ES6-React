@@ -13,8 +13,8 @@ require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
   <div>
-    <ComponentOne />
-    <ComponentTwo />
+    <ComponentOne count={123}/>
+    <ComponentTwo count={11}/>
   </div>,
   document.getElementById('app')
 );
